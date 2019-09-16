@@ -14,12 +14,38 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:fontFamily">@font/dosis</item>
     </style>
 
+    <style name="TextInputLayout">
+        <item name="android:textColorPrimary">@color/textColorSecondary</item>
+        <item name="android:background">@color/loginPageBackgroundColor</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/convergence</item>
+    </style>
+
+    <style name="TextButton">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:background">@color/loginPageBackgroundColor</item>
+        <item name="android:fontFamily">@font/convergence</item>
+    </style>
+
+    <style name="ProductNameLabel">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:background">@color/loginPageBackgroundColor</item>
+    </style>
+    
     <style name="Widget.Shrine.Toolbar" parent="Widget.AppCompat.Toolbar">
         <item name="android:background">?attr/colorAccent</item>
         <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
         <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="android:fontFamily">@font/convergence</item>
+
     </style>
 
 </resources>

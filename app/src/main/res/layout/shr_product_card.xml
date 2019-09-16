@@ -31,6 +31,7 @@
                 android:id="@+id/product_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="@string/shr_product_title"
                 android:textAppearance="?attr/textAppearanceHeadline6" />
 
@@ -38,6 +39,7 @@
                 android:id="@+id/product_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textAlignment="center"
                 android:text="@string/shr_product_description"
                 android:textAppearance="?attr/textAppearanceBody2" />
         </LinearLayout>
